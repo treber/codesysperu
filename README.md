@@ -1,5 +1,3 @@
-# discovery-composer
+# codesysperu
 
-Descubriendo Composer
-
-Este es mi primer repositorio sobre el uso de Composer con PHP.
+Página Web hecho en PHP 7 y Iluminate de laravel
