@@ -1,0 +1,8 @@
+config/env.php
+vendor/*
+access.log
+app-path.txt
+error.log
+index_proyectos.txt
+notas-html.txt
+notas-php.txt

@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EEE;
+
+}
+
+#container-register{
+	min-height: calc(100vh - 389px);
+	padding: 60px 0;
+	display: flex;
+	align-items: center;
+}
+
+#container-register .u-wrapper.is-signup{
+	margin-top: 0;
+}
+
+#container-register .u-wrapper{
+	text-align: center;
+	max-width: 700px;
+	width: 100%;
+}
+
+.u-wrapper{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+}
+
+#container-register h1.is-signup:nth-child(1){
+	margin-bottom: 0;
+}
+
+#container-register h1{
+	font-size: 34px;
+}
+
+#container-register h1.is-signup:nth-child(2){
+	margin-bottom: 46px;
+	font-weight: 500;
+}
+
+.group-register.is-signup{
+	max-width: 684px;
+	padding: 40px 35px 33px;
+}
+
+.group-register{
+	max-width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid #ccc;
+	border-radius: .4em;
+	position: relative;
+}
+
+.register-options{
+	display: flex;
+}
+
+.group-redesSociales{
+	flex: 1;
+	text-align: left;
+	padding-right: 45px;
+}
+
+#container-register h3{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+.group-redesbtn{
+	width: 100%;
+	margin: 0 0 25px;
+}
+
+.btn--big{
+	font-size: 1.3em;
+}
+
+.btn-fcbk{
+	background-color: #3b5999;
+	border: none;
+	border-radius: .4em;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	padding: .6em .3em .6em .2em;
+	text-decoration: none;
+	transition: .2s;
+	overflow: hidden;
+}
+
+.icon--line{
+	border-right: 1px solid transparent;
+	border-right-color: inherit;
+	padding-right: .5em;
+	margin-right: .5em;
+}
+
+.icon-facebook:before{
+	content: '\e801';
+}
+
+.btn-twt{
+	background-color: #60a9de;
+	border: none;
+	border-radius: .4em;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	padding: .6em .3em .6em .2em;
+	text-decoration: none;
+	transition: .2s;
+	overflow: hidden;
+}
+
+.icon-twitter:before{
+	content: '\e802';
+}
+
+.group-email{
+	flex: 1;
+	text-align: left;
+}
+
+#container-register h3.has-padding{
+	padding-left: 44px;
+
+}
+
+#container-register h3.is-signup{
+	margin-bottom: 0;
+}
+
+.borderLeft{
+	border-left: 2px solid #fff;
+	padding-left: 44px;
+}
+
+#container-register label{
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.input{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.login-input{
+	width: 100%;
+	background: #fff;
+	border: 1px solid #dddddd;
+	height: 45px;
+	font-size: 15px;
+}
+
+.input_A{
+	border-radius: 5px;
+	outline: 0;
+	padding: 0 10px;
+}
+
+.centerbtn{
+	text-align: right;
+}
+
+.btn-register{
+	margin: 20px 0 25px;
+}
+
+.btn-color{
+	background-color: #31384A;
+	border: none;
+	border-radius: .4em;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 400;
+	padding: .6em .8em .8em;
+	text-decoration: none;
+	transition: .2s;
+	overflow: hidden;
+}
+
+.link-sesion{
+	text-align: center;
+	width: 496px;
+	margin: auto;
+}
+
+.link-sesion p a{
+	margin-left: 6px;
+	color: #2F4F4F;
+}

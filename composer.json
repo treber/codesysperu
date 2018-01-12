@@ -1,0 +1,22 @@
+{
+    "name": "treber/project15",
+    "description": "Proyecto Web",
+    "authors": [
+        {
+            "name": "Eberth Vallejos Jaramillo",
+            "email": "jaramillo82012@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.5.0",
+        "illuminate/database": "5.2.*",
+        "phpmailer/phpmailer": "5.2.16",
+        "gregwar/captcha": "1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+
+}

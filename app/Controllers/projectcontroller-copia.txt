@@ -1,0 +1,41 @@
+<?php 
+/*
+* Esta clase se va a encargar de llamar a las vistas.
+* compact(): Es lo contrario a extract(), Crea un array que contiene variables y sus valores. 
+* find(): Es una función del ORM Illuminate que busca un solo dato.
+*/
+
+namespace App\Controllers;
+
+use App\Libraries\View;
+use App\Models\Project;
+
+class ProjectController{
+
+	public function projects()
+	{
+		$projects = Project::all();
+
+		View::render('projects/index', compact('projects'));
+	}
+
+	public function project()
+	{
+
+		$id = $_GET['id'] ?? '';
+		$project = Project::find($id);
+
+		$rest = Project::where('id', '<>', "{$id}")->get();
+
+		if(!empty($project) and !empty($rest))
+		{
+			// Si el articulo existe se la pasamos a la Vista
+			View::render("projects/project{$id}", compact('project', 'rest'));
+
+		}else{
+			$this->index();
+		}
+	}
+}
+
+?>

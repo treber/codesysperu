@@ -1,0 +1,139 @@
+footer {
+	justify-content: center;
+	display: flex;
+	font-size: 14px;
+	width: 100%;
+	margin-top: 30px;
+	bottom: 0;
+	line-height: 3;
+	align-self: flex-end;
+	position: relative;
+	flex-wrap: wrap;
+	background: #282828;
+}
+
+#footer p, .cm-item {
+	color: #908F8F;
+}
+
+p.acerca-description {
+	line-height: 2.3em;
+}
+
+.vertical-footer, .copy-footer {
+	padding: 0 15px;
+	width: 100%;
+}
+
+.vf {
+	margin: 10px 0;
+	float: left;
+}
+
+.vf.acerca {
+	width: 100%;
+}
+
+.vf.contacto {
+	width: 68%;
+}
+
+
+.vf.sociales {
+	width: 32%;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer li {
+	line-height: 2.3em;
+}
+
+.vf a, .vf span {
+	text-decoration: none;
+	background: #908F8F;
+	border-radius: 50%;
+	color: #211E1E;
+	margin-right: 0.2em;
+	padding: .1em;
+	font-size: 13px;
+}
+
+a.linkinicio {
+	border-radius: inherit;
+	margin-right: 0;
+	background-color: inherit;
+	color: #908F8F;
+	padding: 0;
+	font-size: 14px;
+}
+
+a.linkpages {
+	text-decoration: underline;
+	border-radius: inherit;
+	margin-right: 0;
+	background-color: inherit;
+	color: #908F8F;
+	padding: 0;
+	font-size: 14px;
+}
+
+.icon-facebook:hover {
+	background-color: #3B5998;
+	color: #fff;
+	transition: .5s;
+}
+
+.icon-twitter:hover {
+	background-color: #29C5F6;
+	color: #fff;
+	transition: .5s;
+}
+
+.icon-gplus:hover {
+	background-color: #CC3A2D;
+	color: #fff;
+	transition: .5s;
+}
+
+.icon-linkedin:hover {
+	background-color: #0077B5;
+	color: #fff;
+	transition: .5s;
+}
+
+.vh.copy {
+	background: #211E1E;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#footer .copy {
+	line-height: 2.5;
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+	#footer {
+		margin-top: 60px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.vertical-footer {
+		display: flex;
+	}
+
+	#footer .copy {
+		line-height: 3;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.vertical-footer {
+		padding: 0;
+	}
+}
